@@ -1,0 +1,13 @@
+.gros {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(103, 64, 140);
+    margin: 0;
+    margin-top: 0.8rem;
+}
+
+.petit {
+    font-size: 0.85rem;
+    color: rgb(92, 88, 88);
+    margin: 0;
+}

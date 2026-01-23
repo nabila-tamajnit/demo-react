@@ -5,8 +5,11 @@ function App() {
 
   return (
     <>
-      Salut les filles
-      <Demo1Component/>
+      { new Date().toLocaleDateString('fr') }
+      
+      <Demo1Component name="HTML" type="Front-End" difficulty={1} />
+      <Demo1Component name="Express" type="Back-End" difficulty={5} />
+      <Demo1Component />
     </>
   )
 }

@@ -1,0 +1,21 @@
+.nopet {
+    background-color: rgb(232, 230, 230);
+    border-radius: 1rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    a {
+        color: rgb(182, 113, 101);
+    }
+}
+
+
+
+.pet {
+    background-color: rgb(214, 224, 236);
+    border-radius: 1rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

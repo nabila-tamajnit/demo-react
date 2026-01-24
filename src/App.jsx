@@ -30,7 +30,7 @@ function App() {
       <Demo2 owner="Khun" havePet={false} />
 
       {/* Cas où la personne a toutes les infos */}
-      <Demo2 owner="Aude" havePet={true} name="Soup" image="https://media.discordapp.net/attachments/794983136777207829/1463904237388824587/IMG-20260117-WA0010.jpg?ex=69738690&is=69723510&hm=c0d5ec51871e6dcfe2ff2de21218eaaab61fcee30b2b363514c4766e4fd794b8&=&format=webp&width=604&height=805" type="chat" />
+      <Demo2 owner="Aude" havePet={true} name="Soup" image="https://www.zooplus.be/magazine/wp-content/uploads/2019/06/comprendre-le-langage-des-chats.webp" type="chat" />
 
       {/* Cas où l'animal n'a pas de nom */}
       <Demo2 owner="JanMi" havePet={true} image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5tTTPGK57cb54SU7d-u3dDCH-RkHdjKvD6Q&s" type="chien" />

@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 90%;
+    margin: auto;
+}
+
 .grey-text {
     color: rgb(116, 128, 180);
     font-weight: lighter;

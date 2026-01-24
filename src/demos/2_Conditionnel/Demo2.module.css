@@ -16,6 +16,21 @@
     background-color: rgb(214, 224, 236);
     border-radius: 1rem;
     margin: 1rem 0.5rem;
-    padding: 1rem;
+    padding: 3rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dog {
+    background : url('/src/assets/images/dog.png');
+}
+
+.cat {
+    background : url('/src/assets/images/cat.png');
+}
+
+.inside {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 0.75rem;
+    padding: 1rem;
 }

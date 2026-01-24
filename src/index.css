@@ -10,6 +10,30 @@
 }
 
 .grey-text {
-    color: rgb(116, 128, 180);
+    color : rgb(105, 125, 154);
     font-weight: lighter;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-3 {
+    gap : 3rem;
 }

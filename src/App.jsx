@@ -2,6 +2,7 @@ import './App.css'
 import { Demo1Component } from './demos/1_Base_Component/Demo1Component'
 import { Demo2 } from './demos/2_Conditionnel/Demo2'
 import { Demo3 } from './demos/3_Collections/Demo3'
+import { Demo4 } from './demos/4_Events/Demo4'
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
 import { Movie } from './exos/3_Collections/Movie'
@@ -58,12 +59,14 @@ function App() {
 
 
       {/* =============== DEMO 3 =============== */}
-
       {/* <Demo3 /> */}
 
       {/* -------------- EXO 2 -------------- */}
-      <Movie />
+      {/* <Movie /> */}
 
+
+      {/* =============== DEMO 4 =============== */}
+      <Demo4 />
     </>
 
 

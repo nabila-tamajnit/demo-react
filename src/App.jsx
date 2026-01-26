@@ -4,13 +4,14 @@ import { Demo2 } from './demos/2_Conditionnel/Demo2'
 import { Demo3 } from './demos/3_Collections/Demo3'
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
+import { Movie } from './exos/3_Collections/Movie'
 
 function App() {
 
   return (
     <>
-    <p>{ new Date().toLocaleDateString('fr') }</p>
-      
+      <p>{new Date().toLocaleDateString('fr')}</p>
+
       {/* ============== DEMO 1 ================ */}
 
       {/* Si vous souhaitez envoyer une chaine dans les props "". Si vous souhaitez envoyer autre chose, il faudra mettre les {} */}
@@ -58,9 +59,14 @@ function App() {
 
       {/* =============== DEMO 3 =============== */}
 
-      <Demo3 />
-      
-      </>
+      {/* <Demo3 /> */}
+
+      {/* -------------- EXO 2 -------------- */}
+      <Movie />
+
+    </>
+
+
   )
 }
 

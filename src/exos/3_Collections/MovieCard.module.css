@@ -1,0 +1,51 @@
+body {
+    background-image: url(/src/assets/images/cinema.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.card {
+    background-color: rgb(44, 39, 39);
+    color: white;
+    width: 17%;
+    height: 30rem;
+    aspect-ratio: 3/4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 2rem;
+
+    margin-top: 7rem;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    .image {
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem 1rem 0 0;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap : 0.5rem;
+        font-size: 0.85rem;
+    }
+}

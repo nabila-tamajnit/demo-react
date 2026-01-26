@@ -1,6 +1,7 @@
 import './App.css'
 import { Demo1Component } from './demos/1_Base_Component/Demo1Component'
 import { Demo2 } from './demos/2_Conditionnel/Demo2'
+import { Demo3 } from './demos/3_Collections/Demo3'
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
 
@@ -41,10 +42,10 @@ function App() {
 
       {/* -------------- EXO 2 -------------- */}
 
-      <h1>🧶 Tendi'Knit 🧶</h1>
-      <h2>Parce que vos vêtements méritent que nos poignets y passent.</h2>
-      <p>Découvrez nos produits :</p>
-      <div className='flex flex-row justify-center items-center gap-3'>
+      {/* <h1>🧶 Tendi'Knit 🧶</h1> */}
+      {/* <h2>Parce que vos vêtements méritent que nos poignets y passent.</h2> */}
+      {/* <p>Découvrez nos produits :</p> */}
+      {/* <div className='flex flex-row justify-center items-center gap-3'>
       <Produit isAvailable={false} name="Le Over" />
 
       <Produit isAvailable={true} name="Le Lavan-doux" image="/src/assets/images/Lavandoux.png" description="Un pull aussi doux que les bisous de ta mamy, couleur lavande" price={200} />
@@ -52,8 +53,14 @@ function App() {
       <Produit isAvailable={true} name="Le Varicelle" image="/src/assets/images/Varicelle.png" price={250} />
 
       <Produit isAvailable={true} name="Go Touch Grass" image="/src/assets/images/GoTouchGrass.png" description="Parce qu'il est important de se reconnecter à Dame Nature" price={300} promoPrice={225} />
-      </div>
-    </>
+      </div> */}
+
+
+      {/* =============== DEMO 3 =============== */}
+
+      <Demo3 />
+      
+      </>
   )
 }
 

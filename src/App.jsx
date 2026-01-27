@@ -7,6 +7,7 @@ import { Demo5 } from './demos/5_State/Demo5'
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
 import { Movie } from './exos/3_Collections/Movie'
+import { Exo4 } from './exos/4_State/Exo4'
 
 function App() {
 
@@ -62,7 +63,7 @@ function App() {
       {/* =============== DEMO 3 =============== */}
       {/* <Demo3 /> */}
 
-      {/* -------------- EXO 2 -------------- */}
+      {/* -------------- EXO 3 -------------- */}
       {/* <Movie /> */}
 
 
@@ -70,8 +71,11 @@ function App() {
       {/* <Demo4 /> */}
 
 
-      {/* =============== DEMO 4 =============== */}
-      <Demo5 />
+      {/* =============== DEMO 5 =============== */}
+      {/* <Demo5 /> */}
+
+      {/* -------------- EXO 4 -------------- */}
+      <Exo4/>
     </>
 
 

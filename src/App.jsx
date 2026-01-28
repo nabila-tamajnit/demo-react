@@ -4,16 +4,20 @@ import { Demo2 } from './demos/2_Conditionnel/Demo2'
 import { Demo3 } from './demos/3_Collections/Demo3'
 import { Demo4 } from './demos/4_Events/Demo4'
 import { Demo5 } from './demos/5_State/Demo5'
+import { Demo6 } from './demos/6_Formulaires/Demo6'
+import { Demo6Bis } from './demos/6_Formulaires/Demo6Bis'
+import { Demo6Lib } from './demos/6_Formulaires/Demo6Lib'
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
 import { Movie } from './exos/3_Collections/Movie'
 import { Exo4 } from './exos/4_State/Exo4'
+import { Exo4Correction } from './exos/4_State/Exo4Correction'
 
 function App() {
 
   return (
     <>
-      <p>{new Date().toLocaleDateString('fr')}</p>
+      {/* <p>{new Date().toLocaleDateString('fr')}</p> */}
 
       {/* ============== DEMO 1 ================ */}
 
@@ -75,7 +79,16 @@ function App() {
       {/* <Demo5 /> */}
 
       {/* -------------- EXO 4 -------------- */}
-      <Exo4/>
+      {/* <Exo4/> */}
+      {/* <Exo4Correction /> */}
+
+
+      {/* =============== DEMO 5 =============== */}
+      <Demo6/>
+      <div className='height' ></div>
+      <Demo6Bis/>
+      <div className='height' ></div>
+      <Demo6Lib/>
     </>
 
 

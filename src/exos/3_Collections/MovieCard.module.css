@@ -4,11 +4,12 @@
     background-repeat: no-repeat;
 } */
 
-/* h2 {
-    color: white;
-    text-align: center;
-    font-size: 3.5rem;
-} */
+h2 {
+    /* color: white; */
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 900;
+}
 
 .card {
     background-color: rgb(44, 39, 39);

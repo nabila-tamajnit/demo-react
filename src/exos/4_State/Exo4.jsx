@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from './Exo4.module.css'
 
 export const Exo4 = () => {
 
@@ -45,11 +46,18 @@ export const Exo4 = () => {
 
     const crement = (id, value) => {
 
+        // ?com
         const newProducts = products.map(product => {
             //pour chaque compteur, si l'id correspond
             if (product.id === id) {
                 //on renvoie le compteur avec l'id non modifié mais le count modifié
-                product.quantity += value;
+
+                // ?com
+                if (product.quantity + value >= 0) {
+                    product.quantity += value;
+                    return product
+                }
+
                 return product
 
             }
@@ -68,7 +76,9 @@ export const Exo4 = () => {
         //         somme += product.price * product.quantity
         //     )
 
-        let somme = products.reduce( (somme, product) => somme + product.price * product.quantity, 0)
+        let somme = products.reduce((acc, product) => {
+            return acc + product.price * product.quantity
+        }, 0)
 
         setTotal(somme);
 
@@ -90,18 +100,24 @@ export const Exo4 = () => {
                 {products.map(product => (
                     <div key={product.id} className="flex flex-row items-center gap-3" >
 
-                        <p>{product.name}</p> <p>{product.price}</p>
+                        <p>{product.name}</p>
+                        <p>{product.price.toFixed(2)}</p>
 
                         <div className="flex flex-row justify-center items-center gap-3">
-                            <button onClick={() => crement(product.id, -1)} >➖</button>
+
+                            <button disabled={product.quantity === 0} onClick={() => crement(product.id, -1)} >➖</button>
+
                             <p>{product.quantity}</p>
+
                             <button onClick={() => crement(product.id, 1)} >➕</button>
+
                         </div>
 
                     </div>))}
             </div>
-            <div>
-                Total : {total} €
+            <div className="flex flex-row gap-2">
+                <p>Total</p>
+                <p>{total.toFixed(2)} €</p>
             </div>
         </div>
     )

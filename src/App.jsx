@@ -7,6 +7,7 @@ import { Demo5 } from './demos/5_State/Demo5'
 import { Demo6 } from './demos/6_Formulaires/Demo6'
 import { Demo6Bis } from './demos/6_Formulaires/Demo6Bis'
 import { Demo6Lib } from './demos/6_Formulaires/Demo6Lib'
+import { Demo7 } from './demos/7_Interaction/Demo7'
 import { Exo1 } from './exos/1_Creation_Composant/Exo1'
 import { Produit } from './exos/2_Conditionnel/Produit'
 import { Movie } from './exos/3_Collections/Movie'
@@ -85,15 +86,16 @@ function App() {
 
 
       {/* =============== DEMO 6 =============== */}
-      <Demo6/>
-      <div className='height' ></div>
-      <Demo6Bis/>
-      <div className='height' ></div>
-      <Demo6Lib/>
+      {/* <Demo6/> */}
+      {/* <Demo6Bis/> */}
+      {/* <Demo6Lib/> */}
 
       {/* -------------- EXO 5 -------------- */}
-      <div className='height' ></div>
-      <Calculator />
+      {/* <Calculator /> */}
+
+
+      {/* =============== DEMO 7 =============== */}
+      <Demo7 />
     </>
 
 

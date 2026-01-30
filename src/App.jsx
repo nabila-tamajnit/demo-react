@@ -12,6 +12,7 @@ import { Produit } from './exos/2_Conditionnel/Produit'
 import { Movie } from './exos/3_Collections/Movie'
 import { Exo4 } from './exos/4_State/Exo4'
 import { Exo4Correction } from './exos/4_State/Exo4Correction'
+import { Calculator } from './exos/5_Formulaires/calculator'
 
 function App() {
 
@@ -83,12 +84,16 @@ function App() {
       {/* <Exo4Correction /> */}
 
 
-      {/* =============== DEMO 5 =============== */}
+      {/* =============== DEMO 6 =============== */}
       <Demo6/>
       <div className='height' ></div>
       <Demo6Bis/>
       <div className='height' ></div>
       <Demo6Lib/>
+
+      {/* -------------- EXO 5 -------------- */}
+      <div className='height' ></div>
+      <Calculator />
     </>
 
 

@@ -11,9 +11,9 @@ export const Demo6Lib = () => {
     //? =============== CREATION useState() & useForm() ===============
     const [totalPerPerson, setTotalPerPerson] = useState();
 
-    // 🗒️ Nous avons maintenant accès une nouvelle Hook qui s'appele useForm et de laquelle, on va extraire plusieurs choses
+    // 🗒️ Nous avons maintenant accès une nouvelle Hook qui s'appele useForm et dans laquelle, on va extraire plusieurs choses
     // 👉 register -> c'est ce qui va nous permettre "d'enregistrer un nouveau champ" (il fait le value={state} + onChange={fonctionPourChangerLeState} pour nous, en gros 😁)
-    // 👉 handleSubmit -> C'est une fonction qui fait le preventDefault et qui renvoie le state qu'elle a fabriqué. Elle prend deux fonction exécutées en cas de formulaire vide, la deuxieme est la fonction éxacutée en cas de formulaire non valide
+    // 👉 handleSubmit -> C'est une fonction qui fait le preventDefault et qui renvoie le state qu'elle a fabriqué. Elle prend deux fonction exécutées en cas de formulaire vide, la deuxieme est la fonction éxécutée en cas de formulaire non valide
     // 👉 formState -> l'état du formulaire
     //        * De formState, on va récupérer errors qui contient toutes les erruers actuelles du formulaire
     const { register, handleSubmit, formState: { errors }, reset } = useForm( { mode: 'onChange', defaultValues: { bill: 0, nbPerson: 0, tips: 5 } } );
